@@ -1,9 +1,17 @@
+"use client";
+
+
 import Link from "next/link";
 import Dropdown from "./Dropdown";
 
 const ArtistCard = () => {
   return (
     <div className="navbar bg-transparent sticky top-0 z-20">
+      <form>
+      <button type="button" onClick={() => history.back()} aria-label="Go back">
+          <img className="w-8" src="/images/arrow-left.svg" alt="Go back" />
+        </button>
+      </form>
       <Dropdown />
       <div className="navbar-center">
         <Link href="/">
