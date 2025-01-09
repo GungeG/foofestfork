@@ -19,7 +19,7 @@ const Dropdown = () => {
               className="menu menu-sm dropdown-content bg-black bg-opacity-70 rounded-box z-[1] mt-3 w-52 p-2 shadow"
             >
               <li>
-                <Link href="/">Homepage</Link>
+                <Link href="/">Home</Link>
               </li>
               <li>
                 <Link href="/lineup">Lineup</Link>

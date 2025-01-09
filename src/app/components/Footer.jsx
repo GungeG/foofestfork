@@ -6,7 +6,7 @@ const Footer = () => {
       <nav className="grid grid-flow-col gap-4">
         <ul className="flex flex-row gap-4">
           <li>
-            <Link href="/">Homepage</Link>
+            <Link href="/">Home</Link>
           </li>
           <li>
             <Link href="/lineup">Lineup</Link>

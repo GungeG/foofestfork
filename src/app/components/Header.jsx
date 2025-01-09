@@ -15,7 +15,7 @@ const ArtistCard = () => {
       <Dropdown />
       <div className="navbar-center text-center ml-[-30px]">
         <Link href="/">
-          <img src="/images/devil.svg" alt="" />
+          <img src="/images/devil.svg" alt="Devil Logo" />
         </Link>
       </div>
       <div className="navbar-end">
@@ -24,7 +24,7 @@ const ArtistCard = () => {
             <img
               className="max-w-[30px] max-h-[30px] mr-2"
               src="/images/ticket.svg"
-              alt=""
+              alt="Tickets"
             />
           </button>
         </Link>

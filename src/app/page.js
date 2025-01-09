@@ -10,9 +10,9 @@ export default async function Home() {
     <div>
       <Hero />
       <div className="flex space-x-40 justify-center mt-12">
-        <Button text="Program" link="lineup" />
-        <Button text="Tickets" link="tickets" />
-        <Button text="Volunteer" link="volunteer" />
+        <Button text="Program" link="lineup" alt="Link to lineup"/>
+        <Button text="Tickets" link="tickets" alt="Link to tickets"/>
+        <Button text="Volunteer" link="" />
       </div>
       <h2 className="text-center text-8xl mt-12 font-Gambetta font-thin">
         Line-up

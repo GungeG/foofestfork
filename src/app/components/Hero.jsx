@@ -9,6 +9,7 @@ const Hero = () => {
           backgroundPosition: "center",
           filter: "blur(3px)",
           zIndex: -1,
+          alt:"Foo Fest"
         }}
       ></div>
       <div
