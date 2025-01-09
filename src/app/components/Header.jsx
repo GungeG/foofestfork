@@ -13,7 +13,7 @@ const ArtistCard = () => {
         </button>
       </form>
       <Dropdown />
-      <div className="navbar-center">
+      <div className="navbar-center text-center ml-[-30px]">
         <Link href="/">
           <img src="/images/devil.svg" alt="" />
         </Link>
