@@ -8,8 +8,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        Gambetta: ["Gambetta-Regular"],
-        GermaniaOneRegular: ["GermaniaOne-Regular"],
+        "GermaniaOneRegular": ["Germania One"],
+        "Gambetta": ["Gambetta"],
       },
       colors: {
         background: "var(--background)",

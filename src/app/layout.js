@@ -13,11 +13,11 @@ import Footer from "./components/Footer";
 //   variable: "--font-geist-mono",
 //   weight: "100 900",
 // });
-const germaniaOne = localFont({
-  src: "./fonts/GermaniaOne-Regular.ttf",
-  variable: "--font-germania-one",
-  weight: "400",
-});
+// const germaniaOne = localFont({
+//   src: "./fonts/GermaniaOne-Regular.ttf",
+//   variable: "--font-germania-one",
+//   weight: "400",
+// });
 
 export const metadata = {
   title: "Foo Fest",
@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
   return (
     <html className="bg-black text-white" lang="en">
       <body
-        className={`${germaniaOne.variable} antialiased`}
+        className={` antialiased`}
       >
         <Header></Header>
         {children}

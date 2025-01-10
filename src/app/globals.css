@@ -1,3 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Germania+One&display=swap");
+
+@font-face {
+  font-family: "Gambetta";
+  src: url("../app/fonts/Gambetta-Regular.otf") format("opentype");
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
