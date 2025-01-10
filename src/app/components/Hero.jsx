@@ -1,8 +1,8 @@
 const Hero = () => {
   return (
-    <div className="hero min-h-screen flex items-center justify-center relative mt-[-85px]">
+    <div className="hero min-h-96 flex items-center justify-center relative mt-[-85px]">
       <div
-        className="absolute inset-0"
+        className="absolute inset-0 "
         style={{
           backgroundImage: "url('/images/forsideimg.jpg')",
           backgroundSize: "cover",

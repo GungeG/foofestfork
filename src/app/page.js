@@ -9,7 +9,7 @@ export default async function Home() {
   return (
     <div>
       <Hero />
-      <div className="flex space-x-40 justify-center mt-12">
+      <div className="flex space-x-10 md:space-x-40 justify-center mt-12">
         <Button text="Program" link="lineup" alt="Link to lineup"/>
         <Button text="Tickets" link="tickets" alt="Link to tickets"/>
         <Button text="Volunteer" link="" />
