@@ -18,11 +18,11 @@ export async function getEventBookings() {
   return subData;
 }
 
-export async function postEventBookings() {
+export async function postEventBookings(data) {
   const response = await fetch(url, {
     method: "Post",
     headers: headersList,
-    body: JSON.stringify({}),
+    body: JSON.stringify(data),
   });
 
   const subData = await response.json();
